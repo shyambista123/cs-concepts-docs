@@ -11,3 +11,4 @@ Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to 
 - [Algorithms](concepts/algorithms/)
 - [Data Structures](concepts/data-structures/)
 - [Programming Languages](concepts/languages/)
+- [Add any new concepts](concepts)
