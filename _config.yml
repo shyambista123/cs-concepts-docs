@@ -1,0 +1,5 @@
+title: Computer Science Concepts
+description: A collection of computer science concepts.
+baseurl: "" # the base hostname & protocol for your site
+url: "" # the base URL for your site
+theme: minima # or any other Jekyll theme
