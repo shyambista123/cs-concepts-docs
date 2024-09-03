@@ -7,7 +7,7 @@ title: Home
 
 Explore various concepts in computer science:
 
-- [Searching Algorithms](concepts/algorithms/searching/)
+- [Searching Algorithms](concepts/algorithms/searching.md)
 - [Sorting Algorithms](concepts/algorithms/sorting/)
 - [Binary Tree](concepts/data-structures/binary-tree/)
 - [Linked List](concepts/data-structures/linked-list/)
