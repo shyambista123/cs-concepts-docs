@@ -7,7 +7,10 @@ title: Home
 
 Explore various concepts in computer science:
 
-- [Algorithms](concepts/algorithms/)
-- [Data Structures](concepts/data-structures/)
-- [Programming Languages](concepts/languages/)
-- [Machine Learning](concepts/machine-learning/)
+- [Searching Algorithms](concepts/algorithms/searching/)
+- [Sorting Algorithms](concepts/algorithms/sorting/)
+- [Binary Tree](concepts/data-structures/binary-tree/)
+- [Linked List](concepts/data-structures/linked-list/)
+- [JavaScript](concepts/languages/javascript/)
+- [Python](concepts/languages/python/)
+- [Machine Learning](concepts/machine-learning/machine_learning/)
