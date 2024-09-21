@@ -1,5 +1,9 @@
-title: Computer Science Concepts
-description: A collection of computer science concepts.
-baseurl: "" # the base hostname & protocol for your site
-url: "" # the base URL for your site
-theme: minima # or any other Jekyll theme
+title: "Computer Science Concepts"
+description: "A project covering algorithms, data structures, programming languages, and machine learning"
+baseurl: ""
+url: "https://github.com/shyambista123/cs-concepts-docs.git"
+theme: jekyll-theme-minimal
+
+# Optional settings:
+markdown: kramdown
+highlighter: rouge
