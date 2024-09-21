@@ -86,3 +86,4 @@ print(f"Predicted score for 6 hours of study: {predicted_score[0]:.2f}")
 
 This example demonstrates how to fit a linear regression model to a dataset and make predictions based on it.
 
+- Return to [Home](../../index.md)
