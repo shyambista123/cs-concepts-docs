@@ -2,6 +2,8 @@
 
 # Python
 
+A guide to Python programming.
+
 Python is a versatile and high-level programming language known for its readability and simplicity. It is widely used in various domains, including web development, data analysis, and artificial intelligence.
 
 ## Hello, World!
@@ -68,3 +70,7 @@ print(result)  # Outputs: 8
 ```
 
 ## Add other docs
+
+
+- Go back to [Languages](./index.md)
+- Return to [Home](../../index.md)
