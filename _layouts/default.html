@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
 <body>
   <header>
-    <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
   </header>
   <main>
     {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
   </footer>
 </body>
 </html>

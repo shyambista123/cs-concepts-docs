@@ -1,16 +1,16 @@
----
-layout: default
-title: Home
----
+# Welcome to the Project
 
-# Welcome to Computer Science Concepts
+This project covers a range of technical concepts including:
 
-Explore various concepts in computer science:
+- [Algorithms](./concepts/algorithms/)
+  - [Searching Algorithms](./concepts/algorithms/searching.md)
+  - [Sorting Algorithms](./concepts/algorithms/sorting.md)
+- [Data Structures](./concepts/data-structures/)
+  - [Binary Tree](./concepts/data-structures/binary-tree.md)
+  - [Linked List](./concepts/data-structures/linked-list.md)
+- [Programming Languages](./concepts/languages/)
+  - [JavaScript](./concepts/languages/javascript.md)
+  - [Python](./concepts/languages/python.md)
+- [Machine Learning](./concepts/machine-learning/machine_learning.md)
 
-- [Searching Algorithms](concepts/algorithms/searching/)
-- [Sorting Algorithms](concepts/algorithms/sorting/)
-- [Binary Tree](concepts/data-structures/binary-tree/)
-- [Linked List](concepts/data-structures/linked-list/)
-- [JavaScript](concepts/languages/javascript/)
-- [Python](concepts/languages/python/)
-- [Machine Learning](concepts/machine-learning/machine_learning/)
+Make sure to review the [Code of Conduct](./CODE_OF_CONDUCT.md), [Contribution Guidelines](./CONTRIBUTING.md), and [Security Rules](./SECURITY.md).
