@@ -1,9 +1,0 @@
-title: "Computer Science Concepts"
-description: "A project covering algorithms, data structures, programming languages, and machine learning"
-baseurl: ""
-url: "https://github.com/shyambista123/cs-concepts-docs.git"
-theme: jekyll-theme-minimal
-
-# Optional settings:
-markdown: kramdown
-highlighter: rouge
