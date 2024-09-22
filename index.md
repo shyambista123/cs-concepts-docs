@@ -1,3 +1,7 @@
+---
+layout: default
+title: Markdown Website
+---
 # Welcome to the Project
 
 This project covers a range of technical concepts including:
