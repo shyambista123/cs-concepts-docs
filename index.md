@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown Website
+title: Cs Concepts Docs
 ---
 # Welcome to the Project
 
