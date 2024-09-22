@@ -1,3 +1,8 @@
+---
+layout: default
+title: Security Policy
+---
+
 # Security Policy
 
 ## Reporting Issues
