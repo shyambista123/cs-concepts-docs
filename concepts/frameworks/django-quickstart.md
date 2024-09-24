@@ -213,7 +213,7 @@ urlpatterns = [
 
 Create a directory named `templates` in your `myapp` folder and create a file named `item_list.html` inside it:
 
-```html
+```jinja
 <!DOCTYPE html>
 <html>
 <head>
