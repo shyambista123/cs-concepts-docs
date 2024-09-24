@@ -17,6 +17,8 @@ This project covers a range of technical concepts including:
   - [Python](./concepts/languages/python.md)
 - [Frameworks](./concepts/frameworks/)
   - [Django](./concepts/frameworks/django-quickstart.md)
+- [Cyber Security](./concepts/cyber-security/)
+  - [Django](./concepts/cyber-security/cyber-security.md)
 - [Machine Learning](./concepts/machine-learning/machine_learning.md)
 
 Make sure to review the [Code of Conduct](./CODE_OF_CONDUCT.md), [Contribution Guidelines](./CONTRIBUTING.md), and [Security Rules](./SECURITY.md).
