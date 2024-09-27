@@ -1,10 +1,13 @@
 name: Deploy MkDocs Site to GitHub Pages
+
 on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,9 +22,19 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      
-      - run: mkdocs build
-      
-      - run: cp CNAME site/
-      
-      - run: mkdocs gh-deploy --force --clean
+      - name: Get CNAME content
+        id: cname
+        run: |
+          if [ -f CNAME ]; then
+            echo "::set-output name=content::$(cat CNAME)"
+          fi
+      - run: mkdocs gh-deploy --force
+      - name: Restore CNAME
+        if: steps.cname.outputs.content
+        run: |
+          echo "${{ steps.cname.outputs.content }}" > site/CNAME
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add site/CNAME
+          git commit -m "Restore CNAME"
+          git push
