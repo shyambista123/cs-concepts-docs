@@ -1,35 +1,22 @@
-name: Deploy Jekyll Site to GitHub Pages
-
+name: Deploy MkDocs Site to GitHub Pages
 on:
   push:
     branches:
       - main
-
+permissions:
+  contents: write
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
-          ruby-version: '3.0'
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
-
-      - name: Build the site
-        run: bundle exec jekyll build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+          python-version: 3.x
+      - uses: actions/cache@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-        permissions:
-          contents: write
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - run: mkdocs gh-deploy --force
