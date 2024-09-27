@@ -1,13 +1,10 @@
 name: Deploy MkDocs Site to GitHub Pages
-
 on:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -22,9 +19,7 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - name: Deploy MkDocs site
-        run: |
-          mkdocs gh-deploy --force
-          if [ -f CNAME ]; then
-            cp CNAME site/
-          fi
+      - run: mkdocs build
+      - name: Copy CNAME file
+        run: cp CNAME site/CNAME
+      - run: mkdocs gh-deploy --force
