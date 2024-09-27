@@ -22,19 +22,9 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - name: Get CNAME content
-        id: cname
+      - name: Deploy MkDocs site
         run: |
+          mkdocs gh-deploy --force
           if [ -f CNAME ]; then
-            echo "::set-output name=content::$(cat CNAME)"
+            cp CNAME site/
           fi
-      - run: mkdocs gh-deploy --force
-      - name: Restore CNAME
-        if: steps.cname.outputs.content
-        run: |
-          echo "${{ steps.cname.outputs.content }}" > site/CNAME
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add site/CNAME
-          git commit -m "Restore CNAME"
-          git push
