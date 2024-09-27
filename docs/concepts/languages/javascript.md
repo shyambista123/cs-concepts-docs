@@ -1,5 +1,3 @@
-### `concepts/languages/javascript.md`
-
 # JavaScript
 
 A guide to JavaScript programming.

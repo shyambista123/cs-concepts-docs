@@ -1,8 +1,3 @@
----
-layout: default
-title: Contributing
----
-
 # Contributing to CS Concepts Docs
 
 We welcome contributions from everyone! Here’s how you can contribute:

@@ -1,5 +1,3 @@
-### `concepts/languages/python.md`
-
 # Python
 
 A guide to Python programming.

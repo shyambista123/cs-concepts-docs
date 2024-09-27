@@ -1,8 +1,3 @@
----
-layout: default
-title: Django Quickstart
----
-
 ### Django Quickstart
 
 #### 1. Install Python

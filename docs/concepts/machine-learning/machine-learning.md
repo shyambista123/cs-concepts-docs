@@ -1,6 +1,4 @@
-## concepts/machine_learning/machine_learning.md
-
-# Machine Learning
+# Machine Learning Basics
 
 Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on building systems that can learn from data and make decisions or predictions based on that data. It involves the use of algorithms and statistical models to enable computers to improve their performance on tasks over time without being explicitly programmed.
 

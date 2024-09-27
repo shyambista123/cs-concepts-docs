@@ -1,0 +1,49 @@
+site_name: CS Concets Docs
+
+repo_name: shyambista123/cs-concepts-docs
+repo_url: https://github.com/shyambista123/cs-concepts-docs
+
+theme:
+  name: material
+  palette:
+    primary: 'blue-grey'
+    accent: 'blue-grey'
+
+  features:
+    - navigation.expanded
+    - instant.search
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Concepts:
+      - Algorithms:
+          - Overview: concepts/algorithms/index.md
+          - Searching: concepts/algorithms/searching.md
+          - Sorting: concepts/algorithms/sorting.md
+      - Cyber Security:
+          - Overview: concepts/cyber-security/index.md
+          - Cyber Security: concepts/cyber-security/cyber-security.md
+      - Data Structures:
+          - Overview: concepts/data-structures/index.md
+          - Binary Tree: concepts/data-structures/binary-tree.md
+          - Linked List: concepts/data-structures/linked-list.md
+      - Frameworks:
+          - Overview: concepts/frameworks/index.md
+          - Django Quickstart: concepts/frameworks/django-quickstart.md
+          - Spring Boot Quickstart: concepts/frameworks/spring-boot-quickstart.md
+      - Languages:
+          - Overview: concepts/languages/index.md
+          - JavaScript: concepts/languages/javascript.md
+          - Python: concepts/languages/python.md
+      - Machine Learning:
+          - Overview: concepts/machine-learning/index.md
+          - Machine Learning Basics : concepts/machine-learning/machine-learning.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shyambista123/cs-concepts-docs
+copyright: |
+  &copy; 2024 <a href="https://github.com/shyambista123"  target="_blank" rel="noopener">Shyam Bista</a>
