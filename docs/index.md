@@ -8,5 +8,6 @@ This project covers a range of technical concepts including:
 - [Frameworks](./concepts/frameworks/)
 - [Cyber Security](./concepts/cyber-security/)
 - [Machine Learning](./concepts/machine-learning/)
+- [Web Scraping](./concepts/library/web_scraping/)
 
 Make sure to review the [Code of Conduct](./CODE_OF_CONDUCT.md), [Contribution Guidelines](./CONTRIBUTING.md), and [Security Rules](./SECURITY.md).
