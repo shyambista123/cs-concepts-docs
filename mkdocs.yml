@@ -40,6 +40,9 @@ nav:
       - Machine Learning:
           - Overview: concepts/machine-learning/index.md
           - Machine Learning Basics : concepts/machine-learning/machine-learning.md
+      - Web Scraping:
+          - Overview: concepts/libraries/web_scraping/index.md
+          - Selenium: concepts/libraries/web_scraping/selenium.md
 
 extra:
   social:
