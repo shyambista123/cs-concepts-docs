@@ -33,13 +33,18 @@ nav:
           - Overview: concepts/frameworks/index.md
           - Django Quickstart: concepts/frameworks/django-quickstart.md
           - Spring Boot Quickstart: concepts/frameworks/spring-boot-quickstart.md
+          - Spring AI RAG: concepts/frameworks/spring-ai-rag.md
+          - Microservices with Spring Boot: concepts/frameworks/microservices-spring-boot.md
+          - Docker Guide: concepts/frameworks/docker-guide.md
+          - REST API Best Practices: concepts/frameworks/rest-api-best-practices.md
       - Languages:
           - Overview: concepts/languages/index.md
           - JavaScript: concepts/languages/javascript.md
+          - TypeScript: concepts/languages/typescript.md
           - Python: concepts/languages/python.md
       - Machine Learning:
           - Overview: concepts/machine-learning/index.md
-          - Machine Learning Basics : concepts/machine-learning/machine-learning.md
+          - Machine Learning Basics: concepts/machine-learning/machine-learning.md
       - Web Scraping:
           - Overview: concepts/libraries/web_scraping/index.md
           - Selenium: concepts/libraries/web_scraping/selenium.md
