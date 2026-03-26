@@ -7,7 +7,8 @@ This project covers a comprehensive range of technical concepts including:
 - [Algorithms](./concepts/algorithms/) - Searching, sorting, and algorithmic techniques
 - [Data Structures](./concepts/data-structures/) - Binary trees, linked lists, and more
 - [Programming Languages](./concepts/languages/) - JavaScript, TypeScript, Python
-- [Cyber Security](./concepts/cyber-security/) - Security fundamentals and best practices
+- [Databases](./concepts/databases/) - MySQL and database management
+- [Cyber Security](./concepts/cyber-security/) - Security fundamentals, Blue Team (defensive), Red Team (offensive)
 - [Machine Learning](./concepts/machine-learning/) - ML basics and practical examples
 - [Web Scraping](./concepts/libraries/web_scraping/) - Selenium and scraping techniques
 

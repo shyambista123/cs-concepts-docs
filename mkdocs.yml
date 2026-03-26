@@ -24,11 +24,16 @@ nav:
           - Sorting: concepts/algorithms/sorting.md
       - Cyber Security:
           - Overview: concepts/cyber-security/index.md
-          - Cyber Security: concepts/cyber-security/cyber-security.md
+          - Cyber Security Basics: concepts/cyber-security/cyber-security.md
+          - Blue Team (Defensive): concepts/cyber-security/blue-team.md
+          - Red Team (Offensive): concepts/cyber-security/red-team.md
       - Data Structures:
           - Overview: concepts/data-structures/index.md
           - Binary Tree: concepts/data-structures/binary-tree.md
           - Linked List: concepts/data-structures/linked-list.md
+      - Databases:
+          - Overview: concepts/databases/index.md
+          - MySQL: concepts/databases/mysql.md
       - Frameworks:
           - Overview: concepts/frameworks/index.md
           - Django Quickstart: concepts/frameworks/django-quickstart.md
